@@ -51,7 +51,7 @@
     }
 
     var result = document.getElementById('form-result');
-    result.innerHTML = '<h2>お問い合わせありがとうございます。</h2><p>誠に申し訳ございませんが、現在、新規の清掃依頼の受付を一時休止しております。</p><p>ご不便をおかけいたしますが、ご理解のほどよろしくお願いいたします。</p>';
+    result.innerHTML = '<h2>お問い合わせありがとうございます。</h2><p>誠に申し訳ございませんが、<span class="service-pause-text">現在、新規の清掃依頼の受付を一時休止しております。</span></p><p>ご不便をおかけいたしますが、ご理解のほどよろしくお願いいたします。</p>';
     result.hidden = false;
     form.hidden = true;
     result.focus();

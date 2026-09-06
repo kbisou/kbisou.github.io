@@ -34,6 +34,7 @@ button, input, textarea { font: inherit; }
 .brand-name { display: block; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 35px; font-weight: 700; letter-spacing: .22em; line-height: 1.25; text-shadow: 1px 1px #c8e3f5; }
 .header-contact, .footer-contact { display: inline-flex; align-items: center; gap: 10px; padding: 11px 20px; color: #fff; background: #277dca; border: 1px solid #1766b2; border-radius: 2px; text-decoration: none; font-size: 14px; box-shadow: inset 0 1px rgba(255,255,255,.25); }
 .header-contact:hover, .footer-contact:hover, .back-button:hover, .submit-button:hover { background: var(--blue-dark); }
+.header-notice { margin: 0; padding: 5px 20px 6px; color: #a32626; border-top: 1px solid #eadede; background: #fffafa; text-align: center; font-size: 13px; font-weight: 600; line-height: 1.5; }
 .menu-button { display: none; }
 .global-nav { border-block: 1px solid #cfe0ec; background: linear-gradient(#f7fbfe, #edf6fc); }
 .nav-list { display: grid; grid-template-columns: repeat(4, 1fr); }
@@ -111,6 +112,7 @@ button, input, textarea { font: inherit; }
 .contact-layout { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(250px, .75fr); gap: 44px; }
 .pause-notice { margin-bottom: 25px; padding: 16px 19px; border-left: 4px solid #85add0; background: #f0f5f8; color: #44515a; font-size: 14px; }
 .pause-notice p { margin: 0; }
+.service-pause-text { color: #a32626; font-weight: 600; }
 .form-row { display: grid; grid-template-columns: 170px 1fr; gap: 18px; padding: 14px 0; border-top: 1px solid #d7e3eb; }
 .form-row:last-of-type { border-bottom: 1px solid #d7e3eb; }
 .form-row label { padding-top: 8px; font-weight: 700; }
@@ -152,6 +154,7 @@ button, input, textarea { font: inherit; }
   .brand-tagline { font-size: 9px; }
   .brand-name { font-size: 25px; }
   .header-contact { display: none; }
+  .header-notice { padding: 6px 15px; font-size: 12px; line-height: 1.55; }
   .menu-button { display: block; position: absolute; right: 15px; top: 23px; padding: 7px 10px; color: var(--blue-dark); border: 1px solid #94b9d4; background: #f1f8fd; }
   .global-nav { display: none; }
   .global-nav.is-open { display: block; }
